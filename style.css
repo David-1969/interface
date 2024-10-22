@@ -1,0 +1,50 @@
+body {
+    background-image: url('https://via.placeholder.com/1920x1080?text=Plains+3D');
+    background-size: cover;
+    color: #fff;
+}
+
+.neon-header {
+    background-color: #1a3e7d; /* Azul mais claro */
+}
+
+.context-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.text-center {
+    margin-bottom: 4rem; /* Espaçamento abaixo do texto centralizado */
+}
+
+.main-content {
+    background-color: rgba(30, 30, 30, 0.7); /* 70% escuro, 30% cinza */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.console-title {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 1rem; /* Espaçamento abaixo do título dos consoles */
+}
+
+.game-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; /* Fonte estilo 8-bit */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Centraliza as colunas */
+}
+
+.border {
+    padding: 20px; /* Adiciona padding em torno de cada coluna da lista */
+    margin: 10px; /* Adiciona margem entre as colunas */
+}

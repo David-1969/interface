@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Zone 2005</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cinzel:wght@700&family=Dancing+Script:wght@700&family=Great+Vibes&family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gamer Zone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contexto">Início <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lista">Lista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5 neon-header">
+        <h1>Bem-vindo à Gamer Zone 2005</h1>
+        <p>Explore os melhores jogos de 2005!</p>
+    </header>
+
+    <div class="container mt-5" id="contexto">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Contexto e Cenário dos Games em 2005</h2>
+                <p class="context-text mb-4">
+                    O ano de 2005 foi um marco na indústria dos videogames, marcado por inovações tecnológicas e lançamentos que se tornaram clássicos. 
+                    A transição entre as gerações de consoles trouxe novos recursos, gráficos impressionantes e experiências de jogo mais imersivas.
+                    Jogos como <strong>"Half-Life 2"</strong> redefiniram o gênero de tiro em primeira pessoa, enquanto <strong>"Resident Evil 4"</strong> inovou na jogabilidade de horror.
+                    O multiplayer online começou a ganhar força, e títulos como <strong>"World of Warcraft"</strong> trouxeram milhões de jogadores para o mundo dos MMORPGs.
+                    Em meio a essas mudanças, os gamers vivenciaram um período de grande entusiasmo e expectativa.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 main-content">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="half-life.svg" class="card-img-top" alt="Game 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Half-Life 2</h5>
+                        <p class="card-text">Um clássico jogo de tiro em primeira pessoa que definiu uma geração.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Half-Life 2')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="resident evil.svg" class="card-img-top" alt="Game 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Resident Evil 4</h5>
+                        <p class="card-text">Um marco nos jogos de terror, inovando com sua jogabilidade.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Resident Evil 4')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="god of war.svg" class="card-img-top" alt="Game 3">
+                    <div class="card-body">
+                        <h5 class="card-title">God of War</h5>
+                        <p class="card-text">A jornada épica de Kratos em busca de vingança.</p>
+                        <button class="btn btn-primary" onclick="showDetails('God of War')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shadow.svg" class="card-img-top" alt="Game 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Shadow of the Colossus</h5>
+                        <p class="card-text">Uma aventura épica em um mundo deslumbrante e solitário.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Shadow of the Colossus')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="call of dutty.svg" class="card-img-top" alt="Game 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Call of Duty 2</h5>
+                        <p class="card-text">Uma experiência intensa de combate da Segunda Guerra Mundial.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Call of Duty 2')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="guitar hero.svg" class="card-img-top" alt="Game 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Guitar Hero</h5>
+                        <p class="card-text">O jogo que trouxe o rock para todos os lares!</p>
+                        <button class="btn btn-primary" onclick="showDetails('Guitar Hero')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="battlefild.svg" class="card-img-top" alt="Game 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Battlefield 2</h5>
+                        <p class="card-text">Um jogo de guerra que trouxe batalhas massivas e jogabilidade estratégica.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Battlefield 2')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="zelda.svg" class="card-img-top" alt="Game 8">
+                    <div class="card-body">
+                        <h5 class="card-title">The Legend of Zelda: Twilight Princess</h5>
+                        <p class="card-text">Uma nova aventura de Link em um mundo de fantasia.</p>
+                        <button class="btn btn-primary" onclick="showDetails('Twilight Princess')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="fear.svg" class="card-img-top" alt="Game 9">
+                    <div class="card-body">
+                        <h5 class="card-title">F.E.A.R.</h5>
+                        <p class="card-text">Um jogo de terror psicológico que combina tiro e suspense.</p>
+                        <button class="btn btn-primary" onclick="showDetails('F.E.A.R.')">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="lista">
+        <h2 class="text-center mb-4">Lista de Jogos por Console</h2>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-2 border border-light rounded p-3 mx-2">
+                <h5 class="console-title">PlayStation 2</h5>
+                <ul class="game-list">
+                    <li>God of War</li>
+                    <li>Gran Turismo 4</li>
+                    <li>Final Fantasy XII</li>
+                    <li>Devil May Cry 3</li>
+                    <li>Shadow of the Colossus</li>
+                </ul>
+            </div>
+            <div class="col-md-2 border border-light rounded p-3 mx-2">
+                <h5 class="console-title">GameCube</h5>
+                <ul class="game-list">
+                    <li>Resident Evil 4</li>
+                    <li>The Legend of Zelda: Four Swords Adventures</li>
+                    <li>Metroid Prime 2: Echoes</li>
+                    <li>Super Mario Strikers</li>
+                    <li>Animal Crossing</li>
+                </ul>
+            </div>
+            <div class="col-md-2 border border-light rounded p-3 mx-2">
+                <h5 class="console-title">Nintendo DS</h5>
+                <ul class="game-list">
+                    <li>Mario Kart DS</li>
+                    <li>New Super Mario Bros.</li>
+                    <li>Castlevania: Dawn of Sorrow</li>
+                    <li>Animal Crossing: Wild World</li>
+                    <li>Brain Age</li>
+                </ul>
+            </div>
+            <div class="col-md-2 border border-light rounded p-3 mx-2">
+                <h5 class="console-title">Xbox</h5>
+                <ul class="game-list">
+                    <li>Halo 2</li>
+                    <li>Fable</li>
+                    <li>Forza Motorsport</li>
+                    <li>Psychonauts</li>
+                    <li>Stubbs the Zombie</li>
+                </ul>
+            </div>
+            <div class="col-md-2 border border-light rounded p-3 mx-2">
+                <h5 class="console-title">Computador</h5>
+                <ul class="game-list">
+                    <li>World of Warcraft</li>
+                    <li>Half-Life 2</li>
+                    <li>Counter-Strike: Source</li>
+                    <li>Guild Wars</li>
+                    <li>F.E.A.R.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Gamer Zone. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
